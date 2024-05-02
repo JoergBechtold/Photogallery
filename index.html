@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="script/script.js"></script>
+
+    <title>Fotogallerie</title>
+  </head>
+
+  <body id="body" onload="loadAllPicture()"></body>
+  <main class="main_content">
+    <section>
+      <div id="layout" class="layout">
+        <div id="img-container" class="img_container"></div>
+      </div>
+    </section>
+
+    <section>
+      <div id="btn-container" class="btn_container">
+        <button onclick="showMorePictures()" class="btn_show_more">Show More</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="show_picture_big d_none" id="show-picture-big"></div>
+    </section>
+  </main>
+</html>
